@@ -73,14 +73,14 @@ while (count < 3) {
 }
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 == 0) {
-        console.log("even");
-    }console.log("odd");
+        console.log(`${arr[i]} even`);
+    }console.log(`${arr[i]} odd`);
     sum += arr[i]
 }
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 == 0) {
-        console.log("even");
-    }console.log("odd");
+        console.log(`${arr[i]} even`);
+    }console.log(`${arr[i]} odd`);
     multi*= arr[i]
 }
 console.log(sum,multi);
