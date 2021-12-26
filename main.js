@@ -72,15 +72,16 @@ while (count < 3) {
     arr.push(nums);
 }
 for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 2 == 0) {
-        console.log(`${arr[i]} even`);
-    }console.log(`${arr[i]} odd`);
     sum += arr[i]
+}
+for (let i = 0; i < arr.length; i++) {
+    multi*= arr[i]
 }
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 == 0) {
         console.log(`${arr[i]} even`);
-    }console.log(`${arr[i]} odd`);
-    multi*= arr[i]
+    }else{
+        console.log(`${arr[i]} odd`);
+    }
 }
 console.log(sum,multi);
