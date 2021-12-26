@@ -61,20 +61,26 @@
 // console.log(`average of ages: ${avg/arrOfAges.length}`);
 
 //שאלה 5
-// let sum = 0;
-// let multi = 1;
-// let arr = [];
-// let count = 0;
-// let nums;
-// while (count < 3) {
-//     nums = Number(prompt("enter numbers"));
-//     count++;
-//     arr.push(nums);
-// }
-// for (let i = 0; i < arr.length; i++) {
-//     sum += arr[i]
-// }
-// for (let i = 0; i < arr.length; i++) {
-//     multi*= arr[i]
-// }
-// console.log(sum,multi);
+let sum = 0;
+let multi = 1;
+let arr = [];
+let count = 0;
+let nums;
+while (count < 3) {
+    nums = Number(prompt("enter numbers"));
+    count++;
+    arr.push(nums);
+}
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 0) {
+        console.log("even");
+    }console.log("odd");
+    sum += arr[i]
+}
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 0) {
+        console.log("even");
+    }console.log("odd");
+    multi*= arr[i]
+}
+console.log(sum,multi);
